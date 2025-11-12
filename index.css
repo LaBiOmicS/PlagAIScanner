@@ -1,0 +1,58 @@
+/* Custom keyframes for animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+/* Custom scrollbar styles */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #1f2937; /* gray-800 */
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #4b5563; /* gray-600 */
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #6b7280; /* gray-500 */
+}
+
+/* Custom styles for range input thumb */
+.range-thumb::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background-color: #22d3ee; /* cyan-400 */
+  cursor: pointer;
+  border-radius: 9999px;
+  margin-top: -5px; /* Adjust for vertical alignment */
+  transition: background-color 0.2s;
+}
+
+.range-thumb::-webkit-slider-thumb:hover {
+  background-color: #67e8f9; /* cyan-300 */
+}
+
+
+.range-thumb::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  background-color: #22d3ee; /* cyan-400 */
+  cursor: pointer;
+  border-radius: 9999px;
+  border: none;
+  transition: background-color 0.2s;
+}
+
+.range-thumb::-moz-range-thumb:hover {
+  background-color: #67e8f9; /* cyan-300 */
+}

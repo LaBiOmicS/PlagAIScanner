@@ -1,0 +1,5 @@
+{
+  "name": "PlagAI Scanner",
+  "description": "A powerful tool that uses Gemini's AI to analyze text originality, detecting plagiarism from online sources and the likelihood of it being AI-generated.",
+  "requestFramePermissions": []
+}
