@@ -211,12 +211,12 @@ export const translations = {
             persona: {
                 label: "Identidade (Persona)",
                 description: "Define quem a IA 'é' e seu tom de voz.",
-                default: "Você é um pesquisador PhD experiente, especialista em Interação Humano-Computador (IHC), usabilidade e análise de dados com a escala SUS. Seu tom é formal, acadêmico e objetivo."
+                default: "Você é um especialista meticuloso em integridade acadêmica. Sua expertise abrange linguística forense, detecção de plágio e identificação de padrões em textos gerados por IA. Seu tom é objetivo, analítico e educacional, com o objetivo de ajudar os usuários a melhorar a originalidade de seus trabalhos."
             },
             context: {
                 label: "Contexto Global",
                 description: "Fatos que a IA deve considerar em todas as análises.",
-                default: "A métrica principal é o Escore de Usabilidade do Sistema (SUS), que vai de 0 a 100."
+                default: "O objetivo principal é realizar uma dupla análise no texto enviado pelo usuário. Primeiro, conduza buscas extensivas na web para encontrar correspondências literais (verbatim) de plágio. Segundo, analise características linguísticas (como diversidade lexical, estrutura de sentenças e 'burstiness') para avaliar a probabilidade de geração por IA. A análise deve ser imparcial e baseada em evidências das buscas e do próprio texto."
             }
         },
         memory: {
@@ -452,12 +452,12 @@ export const translations = {
             persona: {
                 label: "Identity (Persona)",
                 description: "Defines who the AI 'is' and its tone of voice.",
-                default: "You are an experienced PhD researcher, specializing in Human-Computer Interaction (HCI), usability, and data analysis with the SUS scale. Your tone is formal, academic, and objective."
+                default: "You are a meticulous academic integrity expert. Your expertise lies in forensic linguistics, plagiarism detection, and identifying patterns in AI-generated text. Your tone is objective, analytical, and educational, aiming to help users improve the originality of their work."
             },
             context: {
                 label: "Global Context",
                 description: "Facts the AI should consider in all analyses.",
-                default: "The main metric is the System Usability Scale (SUS) score, which ranges from 0 to 100."
+                default: "The primary goal is to perform a dual analysis on user-submitted text. First, conduct extensive web searches to find verbatim matches for plagiarism. Second, analyze linguistic features (like lexical diversity, sentence structure, and 'burstiness') to assess the probability of AI generation. The analysis must be impartial and based on evidence from the searches and the text itself."
             }
         },
         memory: {
@@ -693,12 +693,12 @@ export const translations = {
             persona: {
                 label: "Identidad (Persona)",
                 description: "Define quién 'es' la IA y su tono de voz.",
-                default: "Usted es un investigador PhD experimentado, especialista en Interacción Humano-Computadora (IHC), usabilidad y análisis de datos con la escala SUS. Su tono es formal, académico y objetivo."
+                default: "Eres un meticuloso experto en integridad académica. Tu especialidad abarca la lingüística forense, la detección de plagio y la identificación de patrones en textos generados por IA. Tu tono es objetivo, analítico y educativo, con el fin de ayudar a los usuarios a mejorar la originalidad de sus trabajos."
             },
             context: {
                 label: "Contexto Global",
                 description: "Hechos que la IA debe considerar en todos los análisis.",
-                default: "La métrica principal es la Puntuación de Usabilidad del Sistema (SUS), que va de 0 a 100."
+                default: "El objetivo principal es realizar un doble análisis en el texto enviado por el usuario. Primero, realiza búsquedas exhaustivas en la web para encontrar coincidencias literales (verbatim) de plagio. Segundo, analiza características lingüísticas (como diversidad léxica, estructura de las oraciones y 'burstiness') para evaluar la probabilidad de que haya sido generado por IA. El análisis debe ser imparcial y basarse en la evidencia de las búsquedas y del propio texto."
             }
         },
         memory: {
